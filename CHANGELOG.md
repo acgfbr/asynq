@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `Scheduler` API has changed. Renamed `Stop` to `Shutdown`.
 - Requires redis v4.0+ for multiple field/value pair support
 - Renamed pending key (TODO: need migration script)
+- `Client.Enqueue` now returns `TaskInfo`.
 
 ## [0.17.1] - 2021-04-04
 

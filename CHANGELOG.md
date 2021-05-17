@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Renamed pending key (TODO: need migration script)
 - `Client.Enqueue` now returns `TaskInfo`.
 - `Inspector.RunTaskByKey` is replaced with `Inspector.RunTask`
+- `Inspector.DeleteTaskByKey` is replaced with `Inspector.DeleteTask`
 
 ## [0.17.1] - 2021-04-04
 
